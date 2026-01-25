@@ -1,0 +1,437 @@
+/* responsive all screen sizes */
+
+@media (max-width: 480px) {
+  .div1 {
+    font-size: 8px;
+  }
+
+  .navdata {
+    font-size: 8px;
+  }
+
+  .detect-btn {
+    padding: 4px 8px;
+    font-size: 25px;
+  }
+
+  #icon1 {
+    font-size: 15px;
+  }
+
+  #icon3 {
+    font-size: 8px;
+    padding: 2px 3px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .div1 {
+    font-size: 12px;
+  }
+
+  .navdata {
+    font-size: 20px;
+  }
+
+  #icon1 {
+    font-size: 20px;
+  }
+
+  .detect-btn {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .div1 {
+    font-size: 13px;
+  }
+
+  .navdata {
+    font-size: 12px;
+  }
+
+  .detect-btn {
+    padding: 7px 14px;
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 1201px) {
+  .div1 {
+    font-size: 14px;
+  }
+
+  .navdata {
+    font-size: 13px;
+  }
+
+  .detect-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
+
+.heading {
+  padding-left: 5px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+ 
+/* Responsive Images */
+.variety img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+
+/* bodyyyyyyyyyyyyyyyyyyy css */
+
+
+body {
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+
+.div1 {
+  font-size: 10px;
+  color: red;
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 10px;
+  align-items: center;
+  font-weight: bold;
+}
+
+.header1 {
+  color: black;
+  padding-left: 8px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#icon1 {
+  color: black;
+  font-size: 18px;
+}
+
+nav .nav1 {
+  width: 100%;
+  background-color: rgb(9, 96, 154);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-part {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+#icon3 {
+  border-radius: 50%;
+  border: 1px solid rgb(0, 0, 0);
+  font-size: 22px;
+  color: rgb(201, 202, 175);
+  padding: 3px 4px;
+  margin-left: 5px;
+}
+
+.navdata {
+  font-size: 15px;
+  color: white;
+  line-height: 1.2;
+  padding: 10px;
+}
+
+.detect-btn {
+  margin: 5px;
+  padding: 6px 10px;
+  font-size: 7px;
+  border: 1px solid white;
+  border-radius: 4px;
+  background: white;
+  color: white;
+  cursor: pointer;
+  text-transform: capitalize;
+  background-color: rgb(9, 96, 154);
+}
+
+.detect-btn:hover {
+  background: #448841;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.tab {
+  cursor: pointer;
+  text-align: center;
+  width: 700px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid white;
+  font-size: 15px;
+  padding: 12px 25px;
+  font-weight: 600;
+  background-color: rgb(247, 247, 247);
+}
+
+.active {
+  background-color: black;
+  color: white;
+}
+
+.allspan {
+  font-size: 10px;
+}
+
+
+.variety img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.newverity {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  gap: 10px;
+}
+
+/* Desktop / Laptop */
+.newv {
+  width: 25%;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .newverity {
+    flex-direction: column;
+  }
+
+  .newv {
+    width: 100%;
+  }
+}
+
+
+.divider {
+  width: 100%;
+  height: 200px;
+}
+
+.hold {
+  justify-content: center;
+  text-align: center;
+  color: green;
+ 
+}
+.hold1 h3 {
+  width: 100%;
+ margin-top: -5px;
+}
+.cards-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 220px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-family: Arial;
+  background: white;
+  overflow: hidden;
+  transition: 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+
+.top-area {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.badge {
+  position: absolute;
+  background: #f7d774;
+  padding: 5px 8px;
+  font-size: 11px;
+  border-radius: 4px;
+  right: 10px;
+  top: 10px;
+  font-weight: bold;
+}
+
+.content {
+  padding: 10px;
+}
+
+.title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.custom-btn {
+  background: #eee;
+  border: none;
+  padding: 4px 6px;
+  font-size: 11px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.desc {
+  font-size: 12px;
+  color: #555;
+  margin: 6px 0;
+}
+
+.bottom {
+  border-top: 1px solid #eee;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.add-btn {
+  background: #e21b70;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  font-size: 13px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.delight{
+  display: flex;
+}
+
+.delight img{
+width: 80px;
+height: 80px;
+}
+
+.delight div{
+font-size: 25px;
+font-weight: bold;
+padding-top: 15px;
+}
+
+.delight span{
+  font-size: 15px;
+  font-weight: 100;
+}
+ /* 2nd row */
+
+.delight2{
+  display: flex;
+}
+
+.delight2 img{
+width: 80px;
+height: 80px;
+}
+
+.delight2 div{
+font-size: 25px;
+font-weight: bold;
+padding-top: 15px;
+}
+
+.delight2 span{
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.pee{
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    height: 20px;
+    bottom: 0px;
+    font-family: cursive;
+    padding: 15px;
+    
+    
+}
+.dee{
+margin-left: 600px;
+
+
+}
+.iii{
+margin-left: 20px;
+
+}
+
+
+.detect-btn {
+    font-size: 14px;
+    padding: 12px 18px;
+    border-radius: 999px; /* pill shape */
+    border: none;
+    background: linear-gradient(135deg, #282736, #3b82f6);
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    box-shadow: 0 6px 15px rgba(79, 70, 229, 0.35);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s;
+    width: 100%;
+    max-width: 280px; /* perfect for phone view */
+}
+
+/* Tap / Hover feedback */
+.detect-btn:hover {
+    opacity: 0.95;
+}
+
+.detect-btn:active {
+    transform: scale(0.97);
+    box-shadow: 0 4px 10px rgba(79, 70, 229, 0.3);
+}
+
+/* Remove blue tap highlight on mobile */
+.detect-btn {
+    -webkit-tap-highlight-color: transparent;
+}
